@@ -1,6 +1,8 @@
 html5demo
 =========
 
+working demo @: http://pytools.webfactional.com/learn/html5demo/
+
 User Editable Content Generation
 
 
