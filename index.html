@@ -16,7 +16,7 @@
 
 <article>
   <section>
-    <p>Any elements with the <code>contenteditable</code> attribute set will have a grey outline as you hover over. Feel free to edit and change their contents.  I'm using local storage to maintain your changes.</p>
+    <p>HTML5 allows for the client to easily edit content on an HTML page. In this example, any elements with the <code>contenteditable</code> attribute set will have a grey outline as you hover over. Feel free to edit and change their contents.  Local storage is being employed to maintain your changes.</p>
   </section>
   <section id="editable" contenteditable="true">
     <h2>Go ahead, edit away!</h2>
@@ -60,10 +60,7 @@ if (localStorage.getItem('contenteditable')) {
 </section>
 
 <script src="js/prettify.packed.js"></script>
-<script>
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
+
 
 </body>
 </html>
